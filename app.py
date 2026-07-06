@@ -31,5 +31,5 @@ Notes:
 {notes}
 """
 
-response = model.generate_content(prompt)
-st.write(response.text)
+    response = model.generate_content(prompt)
+    st.write(response.text)
